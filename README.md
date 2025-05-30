@@ -97,7 +97,7 @@ This project will be licensed under the [MIT License](LICENSE) once officially p
 
 For suggestions or collaboration:
 - GitHub Issues or Discussions
-- Email: [your-email@example.com]
+- Email: [migsdev.11@gmail.com]
 
 ---
 
