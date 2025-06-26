@@ -1,0 +1,99 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background: #0D1B2A;
+    font-family: 'poppins', sans-serif;
+}
+header {
+    justify-content: space-around;
+    background-color: #1B263B;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    color: #fff;
+    display: flex;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+}
+li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+    margin-right: 15px;
+}
+li a:hover {
+    background-color: #415A77;
+}
+footer {
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+footer a {
+    background: #415A77;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+main {
+    position: absolute;
+    margin: 10%;
+}
+main button {
+    background-color: #415A77;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    font-family: 'poppins', sans-serif;
+}
+.kit-logo {
+    position: absolute;
+    margin: 8%;
+    right: 10px;
+    margin-right: 12%;
+}
+.kit-logo img {
+    width: 300px;
+    height: 300px;
+}
+
+.about-main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+/*/ this is for the feedbaclk form */
+.feedback-section {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+.feedback-section { max-width: 500px; margin: 2em auto; padding: 2em; background: #fff; border-radius: 8px; box-shadow: 0 2px 8px #0001; }
+.feedback-form textarea { width: 100%; }
+.rating { direction: rtl; unicode-bidi: bidi-override; }
+.rating input { display: none; }
+.rating label { color: #ccc; font-size: 2em; cursor: pointer; }
+.rating input:checked ~ label, .rating label:hover, .rating label:hover ~ label { color: #f5b301; }
+.feedback-success { margin-top: 1em; color: green; }
+        
